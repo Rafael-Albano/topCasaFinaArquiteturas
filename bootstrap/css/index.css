@@ -1,0 +1,110 @@
+html,
+body {
+    height: 100%;
+}
+
+header {
+    background-image: url(../../img/castelo.jpg);
+    background-size:cover;
+    background-position: top center;
+    height: 100%;
+    position: relative;
+
+}
+
+
+.topCasaFina-banner {
+    box-sizing: border-box;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 75%;
+    border-radius: 8px;
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+#paineis-sobre {
+    margin-top: 20px;/* EQUIVALE A 2rem */
+}
+
+.depoimentos-titulo {
+    background-color: #0275D8;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 24px;
+
+}
+
+.contato-select,
+.grupo-radio {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.grupo radio .radio:first-child {
+    margin-top: 0;
+}
+
+.rodape{
+    background-color: #333;
+    color:#ffffff;
+    margin-top: 1rem;
+    padding: 1em;
+}
+
+.rodape address:last-child {
+    margin-bottom: 0;
+}
+
+@media(min-width: 768px) {
+    .col-sm-6 {
+        width: 50%;
+        float: left;
+    }
+
+    #paineis-sobre {
+        margin-top: 0;
+    }
+
+    .depoimentos-titulo {
+        width: 100%;
+    }
+}
+
+@media(min-width:992px) {
+    .col-md-4 {
+        width: 33.33%;
+    }
+    .topCasaFina-banner {
+        left: 0;
+        transform: translate(0, -80%);
+        width: 50%;
+    }
+    .container
+}
+.topCasaFina-bannerWrapper {
+    position: relative;
+    height: 100%;
+}
+
+@media(min-width: 1200px){
+    .col-lg-3 {
+        width: 25%;
+    }
+    .rodape {
+        width: 100%;
+    }
+}
